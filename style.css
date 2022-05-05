@@ -1,0 +1,35 @@
+:root {
+
+    --brand-green: hsla(170, 100%, 26%, 1);
+    --brand-green-light: hsla(148, 23%, 89%, 1);
+    --brand-green-light-02: hsla(180, 14%, 97%, 1);
+    --brand-beige: hsla(39, 100%, 97%, 1);
+    --brand-green-hover: hsla(170, 100%, 14%, 1);
+    --gray-headline: hsla(210, 11%, 15%, 1);
+    --gray-paragraph: hsla(210, 9%, 31%, 1);
+
+
+    font-size: 62.5%;  /*  1rem = 10px agora  */
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--brand-green);
+}
+h1 {
+    font-size: 3.4rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+button {
+    background-color: var(--brand-green);
+}
+
